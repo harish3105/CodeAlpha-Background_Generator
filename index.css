@@ -1,0 +1,71 @@
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.color-box {
+  margin-bottom: 20px;
+}
+
+.color-box p {
+  font-size: 18px;
+}
+
+.color-box button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.customize-box {
+  margin-bottom: 20px;
+}
+
+.customize-box label {
+  font-size: 16px;
+}
+
+.customize-box input[type="color"] {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.copy-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy-box p {
+  font-size: 16px;
+  margin-right: 10px;
+}
+#customButton {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.copy-box input[type="text"] {
+  width: 150px;
+  font-size: 16px;
+  border: none;
+  padding: 5px;
+}
+
+.copy-box button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
